@@ -3,7 +3,7 @@ package com.example.loading;
 public class TestDemo {
 	public static void main(String[] args) {
 		// 类加载顺序测试*******START
-		// Parent.parentStaticMethod();
+		Parent.parentStaticMethod();
 		// Parent p = new Parent();
 		// p.parentStaticMethod2();
 		// Child child = new Child();
