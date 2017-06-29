@@ -16,6 +16,11 @@ public class TestDemo {
 		// int result = ilc.isLandPerimeter(grid);
 		// System.out.println("result:" + result);
 		// 计算岛的周长测试****END
+
+		// RoundUpToPowerOfTwo**********START
+		// System.out.println(RoundUpToPowerOfTwo.getRoundUpToPowerOfTwo(16));
+		// RoundUpToPowerOfTwo***********END
+
 		// Java运算符*******START
 		// System.out.println(-21 >> 2);
 		// System.out.println(Integer.parseInt("1101", 2));
@@ -24,7 +29,6 @@ public class TestDemo {
 		// System.out.println((result & ~(MAXIMUN_CAPACITY - 1)) == 0);
 		// System.out.println(~37);
 		// int compare = -64;
-		//
 		// int MAX = -64;
 		// System.out.println((compare & ~(MAX - 1)) == 0);
 		// System.out.println(0xffffcd7d);
