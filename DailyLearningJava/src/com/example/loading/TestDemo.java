@@ -1,5 +1,7 @@
 package com.example.loading;
 
+import java.util.HashMap;
+
 public class TestDemo {
 	public static void main(String[] args) {
 		// 类加载顺序测试*******START
@@ -33,5 +35,23 @@ public class TestDemo {
 		// System.out.println((compare & ~(MAX - 1)) == 0);
 		// System.out.println(0xffffcd7d);
 		// Java运算符*******END
+		// HashMap相关*******************START
+		// HashMap<String, String> map = new HashMap<>();
+		// map.put(null, "aaa");
+		// map.put(null, "bbb");
+		// map.put(null, "ccc");
+		// System.out.println(map.get(null));
+		System.out.println(1 << 30);
+		// HashMap相关*********************END
+	}
+
+	private static int getMaxInt() {
+		int i = 1;
+		i |= i << 1;
+		i |= i << 2;
+		i |= i << 4;
+		i |= i << 8;
+		i |= i << 15;
+		return i;
 	}
 }
