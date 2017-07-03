@@ -2,7 +2,7 @@ package com.example.loading;
 
 /**
  * 
- * @author zhaopengcheng
+ * @author zhaopch
  *         <p>
  *         类加载顺序测试（子类）
  *         </p>

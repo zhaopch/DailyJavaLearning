@@ -4,6 +4,12 @@ import java.util.Comparator;
 import java.util.Random;
 import java.util.TreeSet;
 
+/**
+ * @author zhaopch
+ *         <p>
+ *         获取100W数里面最大的100个数
+ *         </p>
+ */
 public class SortTop100 {
 
 	/*

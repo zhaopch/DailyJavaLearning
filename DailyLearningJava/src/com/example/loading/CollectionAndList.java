@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 /**
  * 
- * @author zhaopengcheng
+ * @author zhaopch
  *         <p>
  *         Java集合学习
  *         </p>

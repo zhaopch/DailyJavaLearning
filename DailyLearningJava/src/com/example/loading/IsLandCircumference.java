@@ -2,7 +2,7 @@ package com.example.loading;
 
 /**
  * 
- * @author zhaopengcheng
+ * @author zhaopch
  *         <p>
  *         计算岛的周长
  *         </p>

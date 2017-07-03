@@ -7,6 +7,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * @author zhaopch
+ *         <p>
+ *         集合测试
+ *         </p>
+ */
 public class TestList {
 	public static final int N = 50000;
 	public static List values;

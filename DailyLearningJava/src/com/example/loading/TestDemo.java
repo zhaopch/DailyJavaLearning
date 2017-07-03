@@ -2,10 +2,16 @@ package com.example.loading;
 
 import java.util.HashMap;
 
+/**
+ * @author zhaopch
+ *         <p>
+ *         测试
+ *         </p>
+ */
 public class TestDemo {
 	public static void main(String[] args) {
 		// 类加载顺序测试*******START
-		Parent.parentStaticMethod();
+		// Parent.parentStaticMethod();
 		// Parent p = new Parent();
 		// p.parentStaticMethod2();
 		// Child child = new Child();
@@ -41,7 +47,7 @@ public class TestDemo {
 		// map.put(null, "bbb");
 		// map.put(null, "ccc");
 		// System.out.println(map.get(null));
-		System.out.println(1 << 30);
+		System.out.println(getMaxInt());
 		// HashMap相关*********************END
 	}
 

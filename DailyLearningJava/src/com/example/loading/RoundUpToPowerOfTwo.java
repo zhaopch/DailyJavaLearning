@@ -1,5 +1,11 @@
 package com.example.loading;
 
+/**
+ * @author zhaopch
+ *         <p>
+ *         获取大于等于某个值得最小二进制数
+ *         </p>
+ */
 public class RoundUpToPowerOfTwo {
 	/**
 	 * @param the

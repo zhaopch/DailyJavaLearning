@@ -1,5 +1,11 @@
 package com.example.loading;
 
+/**
+ * @author zhaopch
+ *         <p>
+ *         再哈希
+ *         </p>
+ */
 public class SecondaryHash {
 	public static int secondaryHash(int h) {
 		h += (h << 15) ^ 0xffffcd7d;
