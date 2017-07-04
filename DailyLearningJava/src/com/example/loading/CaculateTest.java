@@ -16,7 +16,7 @@ public class CaculateTest {
 		System.out.println("m<<2的二进制码是：" + Integer.toBinaryString(m << 2));
 		System.out.println("(m<<2)=:" + (m << 2));
 		System.out.println("m>>>24的二进制码是：" + Integer.toBinaryString(m >>> 24));
-		System.out.println(" m>>>24 :" + (m >>> 24));
+		System.out.println(" m>>>6 :" + (m >>> 6) + "；二进制码为：" + Integer.toBinaryString(m >>> 6));
 		System.out.println("Integer Size=" + Integer.SIZE);
 	}
 
